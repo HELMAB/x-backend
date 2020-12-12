@@ -11,14 +11,14 @@ npm install x-backend
 
 > Available components
 
-- [Widget](#widget)
-  - [XTimeline](#x-timeline)
-  - [XBox](#x-box)
-  - [XPanel](#x-panel)
-  - [XBoxInfo](#x-box-info)
-  - [XBoxSmallInfo](#x-small-box-info)
-  - [XUserHeader](#x-user-header)
-  - [XUserHeaderItem](#x-user-header-item)
+- [Widget](#Widget)
+  - [XTimeline](#XTimeline)
+  - [XBox](#XBox)
+  - [XPanel](#XPanel)
+  - [XBoxInfo](#XBoxInfo)
+  - [XBoxSmallInfo](#XBoxSmallInfo)
+  - [XUserHeader](#XUserHeader)
+  - [XUserHeaderItem](#XUserHeaderItem)
 - [UI Elements](#ui-elements)
   - [XAlert](#XAlert)
   - [XButton](#XButton)
