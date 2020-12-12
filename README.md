@@ -20,12 +20,12 @@ npm install x-backend
   - [XUserHeader](#x-user-header)
   - [XUserHeaderItem](#x-user-header-item)
 - [UI Elements](#ui-elements)
-  - [XAlert](#x-alert)
-  - [XButton](#x-button)
-  - [XButtonGroup](#x-button-group)
-  - [XCallout](#x-callout)
-  - [XLoading](#x-loading)
-  - [XMoal](#x-modal)
+  - [XAlert](#XAlert)
+  - [XButton](#XButton)
+  - [XButtonGroup](#XButtonGroup)
+  - [XCallout](#XCallout)
+  - [XLoading](#XLoading)
+  - [XMoal](#XMoal)
   
 ### Widget
 
@@ -37,3 +37,13 @@ npm install x-backend
 | variant      | string | info |
 | title      | string      |   Alert! |
 | summary | string      |    Info alert preview. This alert is dismissable. |
+
+#### XButton
+
+| props        | type           | default  |
+| :------------- |:-------------:| :-----|
+| variant      | string | primary |
+| label      | string      |   Save |
+| size | string      |    sm |
+| disabled | boolean      |    false |
+| flat | boolean      |    false |
