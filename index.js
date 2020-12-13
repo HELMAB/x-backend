@@ -17,6 +17,9 @@ import XTimelineItem from "./src/components/timeline/XTimelineItem"
 import XTimelineLabel from "./src/components/timeline/XTimelineLabel"
 import XTimelineBadge from "./src/components/timeline/XTimelineBadge"
 
+import XTab from "./src/components/tab/XTab"
+import XTabMenu from "./src/components/tab/XTabMenu"
+
 export default {
   // eslint-disable-next-line no-unused-vars
   install(Vue, options) {
@@ -38,5 +41,8 @@ export default {
     Vue.component('x-timeline-item', XTimelineItem)
     Vue.component('x-timeline-label', XTimelineLabel)
     Vue.component('x-timeline-badge', XTimelineBadge)
+
+    Vue.component('x-tab', XTab)
+    Vue.component('x-tab-menu', XTabMenu)
   }
 }
