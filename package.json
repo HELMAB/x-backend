@@ -6,7 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "vue",
+    "adminlte",
+    "components",
+    "widget",
+    "ui-elements",
+    "form",
+    "tab",
+    "timeline"
+  ],
+  "author": "HEL Mab",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HELMAB/x-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HELMAB/x-backend/issues"
+  },
+  "homepage": "https://github.com/HELMAB/x-backend#README"
 }

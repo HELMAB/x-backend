@@ -20,6 +20,12 @@ import XTimelineBadge from "./src/components/timeline/XTimelineBadge"
 import XTab from "./src/components/tab/XTab"
 import XTabMenu from "./src/components/tab/XTabMenu"
 
+import XInput from "./src/components/form/XInput"
+import XLabel from "./src/components/form/XLabel"
+import XCheckBox from "./src/components/form/XCheckBox"
+import XTextarea from "./src/components/form/XTextarea"
+import XSelect from "./src/components/form/XSelect"
+
 export default {
   // eslint-disable-next-line no-unused-vars
   install(Vue, options) {
@@ -31,11 +37,11 @@ export default {
     Vue.component('x-small-box', XSmallBox)
 
     Vue.component('x-alert', XAlert)
+    Vue.component('x-modal', XModal)
     Vue.component('x-button', XButton)
     Vue.component('x-loading', XLoading)
     Vue.component('x-callout', XCallout)
     Vue.component('x-button-group', XButtonGroup)
-    Vue.component('x-modal', XModal)
 
     Vue.component('x-timeline', XTimeline)
     Vue.component('x-timeline-item', XTimelineItem)
@@ -44,5 +50,11 @@ export default {
 
     Vue.component('x-tab', XTab)
     Vue.component('x-tab-menu', XTabMenu)
+
+    Vue.component('x-input', XInput)
+    Vue.component('x-label', XLabel)
+    Vue.component('x-check-box', XCheckBox)
+    Vue.component('x-textarea', XTextarea)
+    Vue.component('x-select', XSelect)
   }
 }

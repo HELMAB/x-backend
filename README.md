@@ -9,6 +9,35 @@ x-adminlte
 npm install x-backend
 ```
 
+Import the package into `main.js` file
+```js
+import Vue from 'vue'
+import XBackend from 'x-backend'
+
+Vue.use(XBackend)
+```
+
+## Usage
+
+`Example.vue`
+```vue
+<template>
+  <x-box title="x-backend">
+    <x-alert/>
+  </x-box>
+</template>
+
+<script>
+export default {
+  
+}
+</script>
+
+<style scoped>
+
+</style>
+```
+
 > Available components
 
 - [Widget](#Widget)
