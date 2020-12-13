@@ -1,12 +1,12 @@
 x-adminlte
 ----------
+![Alt](./src/assets/img/x-backend.png)
+> A simple x-component for Adminlte template with Vuejs
 
-> A simple x-component for Adminlte template
-
-> Installation
+## Installation
 
 ```cmd
-npm install x-backend
+npm install x-backend --save
 ```
 
 Import the package into `main.js` file
