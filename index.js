@@ -15,3 +15,7 @@ const xbackend = {
 }
 
 export default xbackend
+
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(xbackend)
+}
