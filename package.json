@@ -1,19 +1,16 @@
 {
   "name": "x-backend",
-  "version": "1.0.0",
-  "description": "",
-
+  "version": "1.0.2",
+  "description": "A simple x-component for Adminlte template with Vuejs",
   "main": "dist/x-backend.ssr.js",
   "browser": "dist/x-backend.esm.js",
   "module": "dist/x-backend.esm.js",
   "unpkg": "dist/x-backend.min.js",
-
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
   "sideEffects": false,
-
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
@@ -22,10 +19,10 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-
   "dependencies": {
+    "admin-lte": "^2.4.18",
+    "bootstrap": "^3.4.1"
   },
-
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
@@ -50,5 +47,25 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "keywords": [
+    "vue",
+    "adminlte",
+    "components",
+    "widget",
+    "ui-elements",
+    "form",
+    "tab",
+    "timeline"
+  ],
+  "author": "HEL Mab",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HELMAB/x-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HELMAB/x-backend/issues"
+  },
+  "homepage": "https://github.com/HELMAB/x-backend#README"
 }

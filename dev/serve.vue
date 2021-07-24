@@ -1,18 +1,33 @@
 <script>
-import Vue from 'vue';
-// Uncomment import and local "components" registration if library is not registered globally.
-// import { XBackendSample } from '@/entry.esm';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "admin-lte/dist/css/AdminLTE.min.css";
+import Vue from "vue";
 
 export default Vue.extend({
-  name: 'ServeDev',
-  // components: {
-  //  XBackendSample,
-  // }
+  name: "ServeDev",
+  methods: {
+    onClick () {
+      alert('clicked')
+    }
+  }
 });
 </script>
 
 <template>
   <div id="app">
-    <x-backend-sample />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <x-alert />
+          <x-callout/>
+          <x-box/>
+          <x-user-header user-avatar="https://ui-avatars.com/api/?name=Hel Mab"/>
+          <x-small-box/>
+          <x-small-box/>
+          <x-small-box/>
+          <x-small-box/>
+        </div>
+      </div>
+    </div>
   </div>
 </template>

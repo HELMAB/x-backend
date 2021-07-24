@@ -10,7 +10,11 @@ npm install x-backend --save
 ```
 
 Import the package into `main.js` file
+
 ```js
+import "bootstrap/dist/css/bootstrap.min.css";
+import "admin-lte/dist/css/AdminLTE.min.css";
+
 import Vue from 'vue'
 import XBackend from 'x-backend'
 
