@@ -1,6 +1,6 @@
 {
   "name": "x-backend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple x-component for Adminlte template with Vuejs",
   "main": "dist/x-backend.ssr.js",
   "browser": "dist/x-backend.esm.js",
